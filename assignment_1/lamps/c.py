@@ -1,4 +1,4 @@
-from lamps_main import get_sample_mean, get_mean
+from main import get_sample_mean, get_mean
 from numpy import arange, linspace
 
 for mi in arange(2, 21):

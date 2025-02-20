@@ -1,5 +1,5 @@
 from numpy import linspace
-from lamps_main import get_sample_mean, get_mean
+from main import get_sample_mean, get_mean
 
 # Do this a number of times with different k and different p to show that the theoretical mean is right.
 for ki in linspace(20, 100, 5, dtype=int):

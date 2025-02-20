@@ -1,6 +1,6 @@
 from numpy import arange, linspace
 import matplotlib.pyplot as plt
-from lamps_main import get_mean
+from main import get_mean
 
 k_values = arange(2, 51)
 f_values = []
