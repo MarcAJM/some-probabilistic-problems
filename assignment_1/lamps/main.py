@@ -19,5 +19,5 @@ def get_sample_mean(k, p):
     return mean(results)
 
 # Get the theoretical mean.
-def get_mean(k, p):
+def get_expected_value(k, p):
     return k + 1 - k * pow(1-p, k)
