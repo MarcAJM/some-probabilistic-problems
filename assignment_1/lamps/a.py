@@ -1,5 +1,14 @@
-from numpy import linspace
-from main import get_sample_mean, get_expected_value
+from numpy import linspace, zeros, mean
+from main import get_expected_value, get_num_of_tests
+
+n = 100000 # Amount of experiments
+
+# Get the sample mean by executing the experiments a few times and then calculating the mean.
+def get_sample_mean(k, p):
+    results = zeros(n)
+    for l in range(n):
+        results[l] = get_num_of_tests(k, p)
+    return mean(results)
 
 # Do this a number of times with different k and different p to show that the theoretical mean is right.
 for ki in linspace(2, 6, 5, dtype=int):
