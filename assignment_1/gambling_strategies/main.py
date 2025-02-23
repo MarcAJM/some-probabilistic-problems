@@ -28,6 +28,8 @@ print(f"95% Confidence Interval: ({conf_interval[0]:.3f}, {conf_interval[1]:.3f}
 
 
 # Question b)
+import numpy as np
+
 def simulate_payout_probability(n_simulations=100000):
     count_8 = 0
     
@@ -48,6 +50,8 @@ print(f"Estimated probability of next payout being 8: {prob_8:.3f}")
 
 
 # Question c)
+import numpy as np
+
 def simulate_expected_T(n_simulations=100000):
     play_counts = []
     
@@ -79,6 +83,8 @@ print(f"95% Confidence Interval for E[T]: ({conf_interval_T[0]:.4f}, {conf_inter
 
 
 # Question d)
+import numpy as np
+
 def simulate_prob_A_correct(n_simulations=100000):
     correct_count = 0
     
