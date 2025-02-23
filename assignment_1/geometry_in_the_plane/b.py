@@ -13,6 +13,6 @@ plt.show()
 plt.hist(y_samples, bins = 100, density=True)
 plt.xlabel('Y values')
 plt.ylabel('Density')
-plt.title('Marginal Density of X')
+plt.title('Marginal Density of Y')
 plt.show()
 
